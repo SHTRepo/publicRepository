@@ -59,7 +59,7 @@ Param (
     [int]$CertValidityDays = 1095,
     [switch]$SkipNetworkProfileCheck,
     $CreateSelfSignedCert = $true,
-    [switch]$ForceNewSSLCert,
+    [switch]$ForceNewSSLCert = $true,
     [switch]$GlobalHttpFirewallAccess,
     [switch]$DisableBasicAuth = $false,
     [switch]$EnableCredSSP
